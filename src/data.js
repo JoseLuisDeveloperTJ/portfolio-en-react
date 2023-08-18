@@ -63,7 +63,24 @@ export const projects = [
     image: "./project8.png",
     link: "#",
   },
+  {
+    title: "Cotizador de Prestamos",
+    subtitle: "React JS",
+    description:
+      " Con emoción y experiencia intermedia en React, construí un cotizador de préstamos. Usé componentes para dividir la interfaz, y aproveché los hooks useState y useEffect para gestionar el estado y los efectos. ¡Un pequeño paso hacia adelante en mi viaje de aprendizaje en React!",
+    image: "./Cotizador_prestamos.jpg",
+    link: "#",
+  },
+  {
+    title: "Cotizador de Criptomonedas",
+    subtitle: "JavaScript",
+    description: " Con entusiasmo y un nivel intermedio de experiencia en JavaScript, desarrollé un cotizador de criptomonedas desde cero. Utilicé una API para obtener datos en tiempo real de varias criptos y los presenté de manera ordenada en la interfaz.",
+    image: "./Cotizador_Cryptomonedas.jpg",
+    link: "#",
+  },
 ];
+
+// testimonio de mis estudios
 
 export const testimonials = [
   {
