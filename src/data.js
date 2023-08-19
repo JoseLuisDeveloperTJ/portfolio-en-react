@@ -69,14 +69,14 @@ export const projects = [
     description:
       " Con emoción y experiencia intermedia en React, construí un cotizador de préstamos. Usé componentes para dividir la interfaz, y aproveché los hooks useState y useEffect para gestionar el estado y los efectos. ¡Un pequeño paso hacia adelante en mi viaje de aprendizaje en React!",
     image: "./Cotizador_prestamos.jpg",
-    link: "#",
+    link: "https://resplendent-creponne-d4fbbf.netlify.app/",
   },
   {
     title: "Cotizador de Criptomonedas",
     subtitle: "JavaScript",
     description: " Con entusiasmo y un nivel intermedio de experiencia en JavaScript, desarrollé un cotizador de criptomonedas desde cero. Utilicé una API para obtener datos en tiempo real de varias criptos y los presenté de manera ordenada en la interfaz.",
     image: "./Cotizador_Cryptomonedas.jpg",
-    link: "#",
+    link: "https://delicate-sable-f177ea.netlify.app/",
   },
 ];
 
