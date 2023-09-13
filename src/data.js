@@ -78,6 +78,14 @@ export const projects = [
     image: "./Cotizador_Cryptomonedas.jpg",
     link: "https://delicate-sable-f177ea.netlify.app/",
   },
+  {
+    title: "CRUD en equipo",
+    subtitle: "ReactJS",
+    description: " Durante mi tiempo en el bootcamp de Kodigo Academy, mi equipo de 5 personas y yo creamos un CRUD. En este proyecto, me encargué de desarrollar la página de videojuegos, crear sus endpoints, diseñar componentes como TableBody, TableHeader, y el Navbar",
+    image: "./Crud.png",
+    link: "https://6501d244474b2c09b066a17a--lustrous-cocada-808aa8.netlify.app/",
+  },
+  
 ];
 
 // testimonio de mis estudios
