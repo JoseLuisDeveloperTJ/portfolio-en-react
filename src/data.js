@@ -6,7 +6,7 @@ export const projects = [
       "Esta calculadora la realice con la intencion de hacerla esteticamente atractiva con ayuda de html, css y JavaScript ademas probando cosas nuevas",
     image: "./project1.png",
     link: "https://harmonious-concha-03489b.netlify.app/",
-  },
+  }, 
   {
     title: "Carrito inteligente",
     subtitle: "JavaScript",
@@ -111,11 +111,11 @@ export const testimonials = [
 
   {
     quote:
-      "Decidí inscribirme en el bootcamp de Kodigo Academy para reforzar mis conocimientos en JavaScript y explorar conceptos más avanzados. Aunque aún no he terminado el programa, ya he mejorado significativamente mi comprensión de JavaScript. En cuanto a React, solo tengo conocimientos básicos, pero estoy emocionado por adentrarme en este poderoso framework y ampliar mis habilidades de desarrollo web. ¡Estoy comprometido en aprender y crecer en mi carrera como programador!",
+      "Tras completar el bootcamp de Kodigo Academy como desarrollador web front-end, estoy encantado con el progreso que he logrado. Mis conocimientos en JavaScript se han fortalecido significativamente, y ahora me siento cómodo con conceptos avanzados. Además, he adquirido habilidades sólidas en React, lo que me permite crear aplicaciones web interactivas. Estoy emocionado por lo que depara el futuro en mi carrera como programador y estoy comprometido en seguir aprendiendo y creciendo.",
     image: "./kodigo-logo.jpg",
-    name: "Web developer (en curso)",
+    name: "Web developer Front-end ",
     company: "Academia Kodigo",
-    link2: "#",
+    link2: "https://drive.google.com/file/d/1K1bI9eWzp2h2XXI2tYOIo2TIdAc1Uy9u/view",
   },
   
 ];
