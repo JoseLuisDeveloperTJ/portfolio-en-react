@@ -85,6 +85,13 @@ export const projects = [
     image: "./Crud.png",
     link: "https://6501d244474b2c09b066a17a--lustrous-cocada-808aa8.netlify.app/",
   },
+  {
+    title: "Aplicacion de reservas",
+    subtitle: "Angular",
+    description: "Creé una app Angular para reservas de entrega de concreto con un calendario (verde para disponible, rojo para ocupado). Los usuarios pueden seleccionar fechas y horarios, hacer reservas con sus datos, y ver su historial. Usé Local Storage para simular la base de datos",
+    image: "./dochmart.png",
+    link: "https://sparkly-cannoli-6a13b4.netlify.app/"
+  }
   
 ];
 
@@ -129,12 +136,12 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
+  "JavaScript & TypeScript",
   "React JS",
-  "HTML & CSS3",
-  "SASS",
+  "HTML5,  CSS3, SASS",
+  "Angular, Material UI",
   "BOOTSTRAP & Tailwind",
   "FIGMA",
-  "WordPress & Elementor",
+  "MySQL",
   "Git & GitHub",
 ];

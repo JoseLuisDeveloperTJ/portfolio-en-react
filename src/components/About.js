@@ -12,7 +12,7 @@ export default function About() {
             <br className="hidden lg:inline-block" /> Me encanta construir aplicaciones web.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Me desempeño como Front end developer, especialmente con tecnologias como JavaScript y React JS,
+            Me desempeño como Front end developer, especialmente con tecnologias como JavaScript, React JS y Angular,
             ademas de tener nociones en UX/UI Design entre otras certificaciones relacionadas a la 
             tecnologia.
           </p>
