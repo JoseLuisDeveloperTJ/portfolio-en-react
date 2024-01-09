@@ -126,7 +126,7 @@ export const projects = [
     id: "15",
     title: "CancunSeasideWeddings - WP",
     subtitle: "html5, css3, wordpress, elementor",
-    description: "Hace unos meses, culminé exitosamente una prueba técnica para el proyecto que desarrollé como freelancer para CancunSeasideWeddings. La tarea consistió en la creación de un sitio web con WordPress y Elementor. Pude demostrar mi capacidad para trabajar eficientemente con estas herramientas y proporcionar soluciones efectivas para el cliente. Aprecio la oportunidad brindada y estoy emocionado de haber contribuido con mi experiencia en este proyecto pasado.",
+    description: "Hace unos meses, culminé exitosamente un proyecto para un cliente. el proyecto que desarrollé como freelancer para CancunSeasideWeddings. La tarea consistió en la creación de un sitio web con WordPress y Elementor. Pude demostrar mi capacidad para trabajar eficientemente con estas herramientas y proporcionar soluciones efectivas para el cliente. Aprecio la oportunidad brindada y estoy emocionado de haber contribuido con mi experiencia en este proyecto pasado.",
     image: "/Cancun.png",
     link: "https://cancunseasideweddings.com/",
     git: "#"
@@ -135,7 +135,7 @@ export const projects = [
     id: "16",
     title: "EZSmog - WP",
     subtitle: "html5, css3, wordpress, elementor",
-    description: "Completé con éxito una prueba técnica para mi empleo actual en Inmersys. La prueba consistió en la creación de un ToDo List utilizando React. Demostré mi habilidad para trabajar con esta biblioteca y mi capacidad para desarrollar soluciones efectivas. Estoy agradecido por la oportunidad y emocionado por seguir contribuyendo con mi experiencia en este equipo.",
+    description: "Completé con éxito proyecto para un cliente mi empleo actual en Inmersys. La prueba consistió en la creación de un ToDo List utilizando React. Demostré mi habilidad para trabajar con esta biblioteca y mi capacidad para desarrollar soluciones efectivas. Estoy agradecido por la oportunidad y emocionado por seguir contribuyendo con mi experiencia en este equipo.",
     image: "/ezsmog.png",
     link: "https://ezsmogsd.com/",
     git: "#"
