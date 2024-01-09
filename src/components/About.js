@@ -1,4 +1,5 @@
 import React from "react";
+import Projects from "./Projects";
 
 
 
@@ -12,9 +13,7 @@ export default function About() {
             <br className="hidden lg:inline-block" /> Me encanta construir aplicaciones web.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Me desempeño como Front end developer, especialmente con tecnologias como JavaScript, React JS y Angular,
-            ademas de tener nociones en UX/UI Design entre otras certificaciones relacionadas a la 
-            tecnologia.
+          Soy un desarrollador web especializado en ReactJS y Three.js, con experiencia en WordPress, Elementor, PHP y MySQL. Anteriormente, trabajé como freelance antes de unirme formalmente a una empresa de desarrollo web. Mi enfoque está en soluciones innovadoras con ReactJS y Three.js, y mi versatilidad se refleja en proyectos anteriores con WordPress y Elementor. Comprometido con la excelencia técnica, busco contribuir con mi experiencia en el desarrollo web.
           </p>
           <div className="flex justify-center">
             <a
@@ -34,5 +33,6 @@ export default function About() {
         </div>
       </div>
     </section>
+
   );
 }
