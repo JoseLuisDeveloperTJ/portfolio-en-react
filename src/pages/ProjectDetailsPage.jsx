@@ -9,17 +9,15 @@ import { faGit } from "@fortawesome/free-brands-svg-icons"; // Importa faGit des
 const ProjectDetailsPage = () => {
   const { projectId } = useParams();
 
-  // Depura los valores
-  console.log("projectId from URL:", projectId);
-  console.log(
-    "All project IDs:",
-    projects.map((project) => project.id)
-  );
-
   const project = projects.find((p) => p.id === projectId);
 
   if (!project) {
     return <div>Proyecto no encontrado</div>;
+  }
+
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener, noreferrer');
+    if(newWindow) newWindow.opener = null;
   }
 
   // Aquí, puedes buscar los detalles del proyecto según el projectId y mostrarlos.
@@ -65,11 +63,9 @@ const ProjectDetailsPage = () => {
           
           <div className="space-x-2">
 
-            <Link to={project.link}>
-            <button className="netlify">
-              <FontAwesomeIcon icon={faUpload} /> Ver proyecto
-            </button>
-            </Link>
+          <button className="netlify" onClick={() => openInNewTab(project.link)}>
+            <FontAwesomeIcon icon={faUpload} /> Ver proyecto
+          </button>
 
 
             <Link>
