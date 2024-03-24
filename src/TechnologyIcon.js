@@ -11,8 +11,10 @@ import {
     faFigma,
     faWordpress,
     faElementor,
+    faPhp,
+    
   } from "@fortawesome/free-brands-svg-icons";
-  import { faCode } from "@fortawesome/free-solid-svg-icons"; // Ícono de Tailwind CSS
+  import { faCode, faDatabase } from "@fortawesome/free-solid-svg-icons"; // Ícono de Tailwind CSS
 
   
   const technologyIcons = {
@@ -27,7 +29,8 @@ import {
     wordpress: <FontAwesomeIcon icon={faWordpress} className="text-blue-500" />,
     elementor: <FontAwesomeIcon icon={faElementor} className="text-rose-300" />, // Cambiado a color rosa claro
     tailwind: <FontAwesomeIcon icon={faCode} className="text-teal-500" />, // Ícono de Tailwind CSS
-
+    php: <FontAwesomeIcon icon={faPhp} className="text-purple-500" />,
+    mysql: <FontAwesomeIcon icon={faDatabase} className="text-blue-500" />, // Ícono de MySQL
     // Agrega más iconos según las tecnologías que utilices
   };
   

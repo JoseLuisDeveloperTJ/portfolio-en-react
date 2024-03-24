@@ -141,12 +141,30 @@ export const projects = [
     git: "#"
   },
   {
-    id: "15",
+    id: "17",
     title: "Arainier Builders - WP",
     subtitle: "html5, css3, wordpress, elementor",
     description: "En el pasado, como freelancer, llevé a cabo con éxito la creación de un sitio web para una empresa de arquitectos utilizando WordPress y Elementor. Mi enfoque durante el proyecto demostró eficacia en la implementación de soluciones personalizadas y funcionales. Estoy agradecido por la oportunidad de haber contribuido al éxito de la presencia en línea de la empresa y ansioso por seguir aplicando mi experiencia en futuros desafíos",
     image: "/arainier.png",
     link: "https://arainierbuilders.com/",
+    git: "#"
+  },
+  {
+    id: "18",
+    title: "CRUD Full stack PHP",
+    subtitle: "html5, css3, JavaScript, BOOTSTRAP, php, mysql",
+    description: "Este proyecto fue desarrollado con HTML, CSS, JavaScript, BOOTSTRAP, PHP y MySQL trabaje desde el front-end hasta el back-end cree la base de datos y ademas hice el deploy de este mismo proyecto para que se pudiera apreciar sin ningun tipo de problema lo deploye en (Infinity Free) Asi que estoy seguro de que si desean verlo deployado podran hacerlo, tambien esta dado de alta mi codigo en GitHub ",
+    image: "/crud-php.png",
+    link: "http://crudphpbyjoseluisarteaga.infinityfreeapp.com/",
+    git: "https://github.com/JoseLuisDeveloperTJ/crudfullstack/"
+  },
+  {
+    id: "19",
+    title: "Tostadas Sabrocitas - WP",
+    subtitle: "html5, css3, wordpress, elementor",
+    description: "Este proyecto fue desarrollado con HTML, CSS, WordPress, Elementor en este caso no solo fue el desarrollo del sitio web si no que actualmente estoy trabajando de forma freelance una estrategia SEO con mi cliente desde SEO Local, SEO on page, y SEO off page para incrementar el numero de visitantes en su sitio mes a mes, tambien se pretende trabajar sus redes sociales con SMO apartir del dia 2 de abril 2024 ",
+    image: "/tostadas.png",
+    link: "https://tostadassabrocitas.com/",
     git: "#"
   },
   

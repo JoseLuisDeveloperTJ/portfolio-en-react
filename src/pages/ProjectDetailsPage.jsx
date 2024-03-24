@@ -16,8 +16,10 @@ const ProjectDetailsPage = () => {
   }
 
   const openInNewTab = (url) => {
-    const newWindow = window.open(url, '_blank', 'noopener, noreferrer');
-    if(newWindow) newWindow.opener = null;
+    if (url !== '#') {
+      const newWindow = window.open(url, '_blank', 'noopener, noreferrer');
+      if (newWindow) newWindow.opener = null;
+    }
   }
 
   // Aquí, puedes buscar los detalles del proyecto según el projectId y mostrarlos.
@@ -69,7 +71,7 @@ const ProjectDetailsPage = () => {
 
 
             <Link>
-            <button className="github">
+            <button className="github" onClick={() => openInNewTab(project.git)}>
               <FontAwesomeIcon icon={faGit} /> Ver en GitHub
             </button>
             </Link>
