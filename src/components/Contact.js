@@ -73,10 +73,10 @@ export default function Contact() {
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 sm:text-4xl text-3xl mb-1 font-medium title-font">
-            ¡Contrátame!
+            Hire Me!
           </h2>
           <p className="leading-relaxed mb-5">
-            Te comparto mis datos para que puedas ponerte en contacto, o puedes contactarme directamente por medio de este formulario o preferentemente por el boton flotante de WhatsApp 
+            Here are my contact details so you can get in touch with me, or you can contact me directly through this form — preferably using the WhatsApp floating button.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

@@ -1,223 +1,228 @@
 export const projects = [
-  {
-    id:"1",
-    title: "Calculadora 3D - JavaScript",
-    subtitle: "html5, css3, JavaScript",
-    description:
-      "Esta calculadora la realice con la intencion de hacerla esteticamente atractiva con ayuda de html, css y JavaScript ademas probando cosas nuevas",
-    image: "/project1.png",
-    link: "https://harmonious-concha-03489b.netlify.app/",
-  }, 
+    {
+    id: "1",
+    title:
+      "E-commerce Sales Optimization Dashboard | Snowflake Cloud (AWS) + Python + n8n Orchestration + Power BI Insights",
+    subtitle: "aws, n8n, python, snowflake, mysql, powerbi",
+    description: `“Apex Outdoors” (fictional case), managing daily sales across multiple regions.
+
+Their reality: a team of four Data Entry specialists spending hours exporting, consolidating, and manually formatting Excel files from their online store just to produce a single sales report.
+
+The result? Over $3,200 USD per month in operational costs, frequent human errors, and a 24-hour delay in business decision-making.
+
+The Mission
+
+Design and implement a fully automated, scalable, and cost-efficient data pipeline to eliminate manual reporting and provide near real-time business insights.
+
+The Solution: Apex Sales Pipeline
+
+I designed an event-driven data architecture that transformed a $3,200/month manual workflow into an automated cloud pipeline costing under $300/month.
+
+1. Data Ingestion (Python)
+
+A Python script simulates a real-time e-commerce API, continuously generating structured JSON data (orders, customers, timestamps).
+Technologies: Python (json, datetime, random).
+
+2. Workflow Orchestration (n8n)
+
+n8n acts as the central orchestrator using scheduled triggers to execute the pipeline, validate data creation, and manage the data flow.
+Technology: n8n.
+
+3. Staging & Storage (AWS S3)
+
+Raw JSON files are uploaded to an Amazon S3 bucket, creating a durable landing zone for raw data ingestion.
+Technology: AWS S3.
+
+4. Data Warehouse (Snowflake)
+
+The pipeline loads data from S3 into Snowflake using COPY INTO, where SQL views parse JSON data, join geographic metadata (Lat/Lon), and structure it for analytics.
+Technology: Snowflake.
+
+5. Data Visualization (Power BI)
+
+Power BI connects directly to the curated Snowflake views to deliver interactive dashboards including sales overview, heat maps, product insights, and system monitoring.
+Technology: Power BI.
+
+Business Impact
+
+• 90% cost reduction ($3,200 → ~$300/month)
+• Real-time decision making by eliminating 24-hour reporting delays
+• Improved data accuracy by removing manual processing errors`,
+
+    image: "/gif_apex_ecom.gif",
+    gallery: [
+      "/projects-images/apex_ecom/dashboard_1.png",
+      "/projects-images/apex_ecom/product_2.png",
+      "/projects-images/apex_ecom/map_3.png",
+      "/projects-images/apex_ecom/settings_4.png",
+      "/projects-images/apex_ecom/snowflake_5.png",
+      "/projects-images/apex_ecom/aws_6.png",
+      "/projects-images/apex_ecom/n8n_6.png",
+      "/projects-images/apex_ecom/editor_7.png",
+      "/projects-images/apex_ecom/pyton_8.png",
+      "/projects-images/apex_ecom/gitbash_9.png",
+      "/projects-images/apex_ecom/workflow_9.png",
+        ],
+    link: "",
+  },
   {
     id: "2",
-    title: "Carrito inteligente - JavaScript",
-    subtitle: "html5, css3, bootstrap, JavaScript",
-    description:
-      "Este proyecto lo trabaje con html, css, bootstrap y JavaScript haciendo uso del local storage para que los productos pudieran guardarse aun refrescando la pagina despues de agregar productos al carrito",
-    image: "/project2.png",
-    link: "https://wondrous-alpaca-68ae74.netlify.app/",
+    title:
+      "WFM Call center Intelligent Dashboard | Snowflake Cloud AWS + Power BI + Machine Learning Forecasting",
+    subtitle: "aws, snowflake, mysql, powerbi",
+    description: `I’m excited to share my latest Workforce Management (WFM) project. I transformed raw call center data into a high-level strategic decision tool by integrating a modern cloud tech stack.
+
+                  What this Dashboard Tracks:
+                  Trend Analysis: Real-time comparison of actual call volume against ML-driven forecasts to identify intraday patterns.
+
+                  Daily Performance KPIs: High-level visibility of daily SLA (13.29%) and Total Calls to measure overall service health.
+
+                  Efficiency Metrics: Constant tracking of Average Handle Time (493.98 sec) to monitor agent productivity and operational flow.
+
+                  Leadership Insights: Detailed breakdown of performance by Team Leader and Agent, enabling data-driven coaching.
+
+                  Staffing Alignment: Visual correlation between Scheduled Personnel and incoming demand to highlight coverage needs.
+
+                  Core Features: Forecasting & Scheduling
+                  ML-Powered Forecasting: Integrated Snowflake data to project expected volumes with confidence bands (Upper/Lower bounds) for anomaly prevention.
+
+                  Scheduling Visualization: Implemented staffing lines to visually detect peak intervals where the operation is under-resourced.
+
+                  Technical Stack Applied:
+
+                  Cloud Data Warehouse: Data management and extraction utilizing Snowflake.
+                  Advanced DAX: Developed measures for critical KPIs including SLA %, Avg AHT, and Actual vs. Predicted call counts.
+                  Data Modeling: Performed data cleaning and transformation to align time granularity and manage complex relational schemas.`,
+
+    image: "/Gift_Workforce_manangement_ Dashboard.gif",
+    gallery: [
+      "/projects-images/wfm-project/dashboard.png",
+      "/projects-images/wfm-project/forecasting_snowflake.png",
+      "/projects-images/wfm-project/modelling.png",
+      "/projects-images/wfm-project/powerbi_editor.png",
+      "/projects-images/wfm-project/aws.png"
+    ],
+    link: "",
   },
   {
     id: "3",
-    title: "Checkout Dinamico - JavaScript",
-    subtitle: "html5, css3, JavaScript",
-    description:
-      "El checkout dinamico que cree, es muy interesante por que detecta el tipo de tarjeta que se este escribiendo, tambien gira de forma 3D la tarjeta sin duda alguna un proyecto muy bonito que me encanto hacer",
-    image: "/project3.png",
-    link: "https://capable-pie-e5e75b.netlify.app/",
+    title: "Operational Productivity & Overtime Impact Analysis Manufacturing Company | Power BI",
+    subtitle: "powerbi",
+    description: `Power BI Project | Operational Productivity & Overtime Impact Analysis
+Manufacturing companies constantly face operational challenges like:
+
+• Is overtime actually improving productivity — or just increasing costs?
+• Which shift is truly the most efficient?
+• Are we paying more per unit than we should?
+• Which departments consistently meet performance targets?
+• Are we experiencing diminishing returns during extended shifts?
+
+To explore these questions, I built a Power BI dashboard simulating a real-world manufacturing environment serving U.S. automotive clients.
+The analysis focused on:
+
+✔ Target Achievement %
+✔ Units per Hour (true productivity metric)
+✔ Cost per Unit
+✔ Overtime efficiency impact
+✔ Department-level performance benchmarking
+
+One key insight:
+
+Overtime increased total output, but reduced efficiency per hour — suggesting diminishing productivity returns during extended shifts.
+This project allowed me to apply DAX functions such as:
+
+• CALCULATE (context manipulation)
+• ALL & ALLEXCEPT (benchmarking)
+• RANKX (department ranking)
+
+More importantly, it reinforced something critical:
+
+Operational analytics is not about charts — it's about helping leadership make better decisions.
+
+Open to opportunities in Operational Analytics, Productivity Analysis, and Business Intelligence.
+`,
+
+    image: "/gift_operational.gif",
+    gallery: [
+      "/projects-images/operman_project/dashboard_clean.png",
+      "/projects-images/operman_project/powerbi_editor.png",
+      "/projects-images/operman_project/powerquery.png",
+    ],
+    link: "",
   },
-  {
-    id: "4",
-    title: "Validador de identidad - JavaScript",
-    subtitle: "html5, css3, JavaScript",
-    description:
-      "Este proyecto es algo basico pero sirve para validar la identidad de un usuario consultando atravez de un objeto en JavaScript necesitas los siguientes datos para probarlo, dni:5555 date: 2023-02-09",
-    image: "/project4.png",
-    link: "https://sensational-crepe-e094a4.netlify.app/",
-  },
-  {
-    id: "5",
-    title: "Twitter CLON UX / UI - HTML, CSS3, +",
-    subtitle: "HTML5, CSS3, SASS, BOOTSTRAP ",
-    description:
-      "Este proyecto lo hice gracias a una plantilla de FIGMA busque un diseno mas moderno similar a twitter para practicar mis habilidades maquetando con BOOTSTRAP",
-    image: "/project5.png",
-    link: "https://thunderous-buttercream-e01a4a.netlify.app/",
-  },
-  {
-    id: "6",
-    title: "Dragon ball Website - JavaScript",
-    subtitle: "html5, css3, JavaScript",
-    description:
-      "Este es un proyecto cuando recien comenzaba a aprender JavaScript con el uso de librerias para aprender a hacer efectos, en esta web practique el scroll Trigger y Parallax",
-    image: "/project6.png",
-    link: "https://646ea0537be7e73c6af2f55f--tangerine-monstera-0dc18c.netlify.app/",
-  },
-  {
-    id: "7",
-    title: "Clon mercado libre - HTML, CSS3",
-    subtitle: "Html5, CSS3",
-    description:"Este es un proyecto basico en el cual el objetivo fue practicar con Flexbox para el correcto posicionamiento de las cajas me inspire en mercadolibre creo que el resultado fue bueno",
-    image: "/project7.png",
-    link: "https://646ed6a78bc2084913556c9a--classy-churros-c1585a.netlify.app/",
-  },
-  {
-    id: "8",
-    title: "Mi portafolio personal - ReactJS",
-    subtitle: "html5, css3, JavaScript, ReactJS, tailwind",
-    description:
-      "Mis conocimientos en React son basicos, pero me motive a empezar a exponerme mas a este entorno que no conozco mucho para empezar a sentirme cada vez mas comodo programando en React",
-    image: "/project8.png",
-    link: "#",
-  },
-  {
-    id: "9",
-    title: "Cotizador de Prestamos - ReactJS",
-    subtitle: "html5, css3, JavaScript, ReactJS, tailwind",
-    description:
-      " Con emoción y experiencia intermedia en React, construí un cotizador de préstamos. Usé componentes para dividir la interfaz, y aproveché los hooks useState y useEffect para gestionar el estado y los efectos. ¡Un pequeño paso hacia adelante en mi viaje de aprendizaje en React!",
-    image: "/Cotizador_prestamos.jpg",
-    link: "https://resplendent-creponne-d4fbbf.netlify.app/",
-  },
-  {
-    id: "10",
-    title: "Cotizador de Criptomonedas - JavaScript",
-    subtitle: "html5, css3, JavaScript",
-    description: " Con entusiasmo y un nivel intermedio de experiencia en JavaScript, desarrollé un cotizador de criptomonedas desde cero. Utilicé una API para obtener datos en tiempo real de varias criptos y los presenté de manera ordenada en la interfaz.",
-    image: "/Cotizador_Cryptomonedas.jpg",
-    link: "https://delicate-sable-f177ea.netlify.app/",
-  },
-  {
-    id: "11",
-    title: "CRUD en equipo - ReactJS",
-    subtitle: "html5, css3, bootstrap, JavaScript, reactjs",
-    description: " Durante mi tiempo en el bootcamp de Kodigo Academy, mi equipo de 5 personas y yo creamos un CRUD. En este proyecto, me encargué de desarrollar la página de videojuegos, crear sus endpoints, diseñar componentes como TableBody, TableHeader, y el Navbar",
-    image: "/Crud.png",
-    link: "https://6501d244474b2c09b066a17a--lustrous-cocada-808aa8.netlify.app/",
-    git: ""
-  },
-  {
-    id: "12",
-    title: "Aplicacion de reservas - Angular",
-    subtitle: "html5, css3, JavaScript, Angular",
-    description: "Creé una app Angular para reservas de entrega de concreto con un calendario (verde para disponible, rojo para ocupado). Los usuarios pueden seleccionar fechas y horarios, hacer reservas con sus datos, y ver su historial. Usé Local Storage para simular la base de datos",
-    image: "/dochmart.png",
-    link: "https://sparkly-cannoli-6a13b4.netlify.app/"
-  },
-  {
-    id: "13",
-    title: "Pokedex - JavaScript",
-    subtitle: "html5, css3, JavaScript",
-    description: "Recientemente, superé con éxito una prueba técnica para un empleo anterior como Front-end Developer. Demostré habilidades sólidas en consumir APIs, utilizando HTML, CSS y JavaScript para crear una interfaz de usuario eficiente y atractiva. Estoy emocionado por la oportunidad de aplicar estas habilidades en nuevos proyectos.",
-    image: "/pokedex.png",
-    link: "https://elegant-starburst-d40184.netlify.app/",
-    git: "https://github.com/JoseLuisDeveloperTJ/Pokedex-telsur"
-  },
-  {
-    id: "14",
-    title: "ToDoList - ReactJS",
-    subtitle: "html5, css3, JavaScript, Reactjs, tailwind",
-    description: "Completé con éxito una prueba técnica para mi empleo actual en Inmersys. La prueba consistió en la creación de un ToDo List utilizando React. Demostré mi habilidad para trabajar con esta biblioteca y mi capacidad para desarrollar soluciones efectivas. Estoy agradecido por la oportunidad y emocionado por seguir contribuyendo con mi experiencia en este equipo.",
-    image: "/TodoList.png",
-    link: "https://lovely-chebakia-0c2ad0.netlify.app",
-    git: "https://github.com/JoseLuisDeveloperTJ/PruebaTecnicaInmersysr"
-  },
-  {
-    id: "15",
-    title: "CancunSeasideWeddings - WP",
-    subtitle: "html5, css3, wordpress, elementor",
-    description: "Hace unos meses, culminé exitosamente un proyecto para un cliente. el proyecto que desarrollé como freelancer para CancunSeasideWeddings. La tarea consistió en la creación de un sitio web con WordPress y Elementor. Pude demostrar mi capacidad para trabajar eficientemente con estas herramientas y proporcionar soluciones efectivas para el cliente. Aprecio la oportunidad brindada y estoy emocionado de haber contribuido con mi experiencia en este proyecto pasado.",
-    image: "/Cancun.png",
-    link: "https://cancunseasideweddings.com/",
-    git: "#"
-  },
-  {
-    id: "16",
-    title: "EZSmog - WP",
-    subtitle: "html5, css3, wordpress, elementor",
-    description: "Completé con éxito proyecto para un cliente mi empleo actual en Inmersys. La prueba consistió en la creación de un ToDo List utilizando React. Demostré mi habilidad para trabajar con esta biblioteca y mi capacidad para desarrollar soluciones efectivas. Estoy agradecido por la oportunidad y emocionado por seguir contribuyendo con mi experiencia en este equipo.",
-    image: "/ezsmog.png",
-    link: "https://ezsmogsd.com/",
-    git: "#"
-  },
-  {
-    id: "17",
-    title: "Arainier Builders - WP",
-    subtitle: "html5, css3, wordpress, elementor",
-    description: "En el pasado, como freelancer, llevé a cabo con éxito la creación de un sitio web para una empresa de arquitectos utilizando WordPress y Elementor. Mi enfoque durante el proyecto demostró eficacia en la implementación de soluciones personalizadas y funcionales. Estoy agradecido por la oportunidad de haber contribuido al éxito de la presencia en línea de la empresa y ansioso por seguir aplicando mi experiencia en futuros desafíos",
-    image: "/arainier.png",
-    link: "https://arainierbuilders.com/",
-    git: "#"
-  },
-  {
-    id: "18",
-    title: "CRUD Full stack PHP",
-    subtitle: "html5, css3, JavaScript, BOOTSTRAP, php, mysql",
-    description: "Este proyecto fue desarrollado con HTML, CSS, JavaScript, BOOTSTRAP, PHP y MySQL trabaje desde el front-end hasta el back-end cree la base de datos y ademas hice el deploy de este mismo proyecto para que se pudiera apreciar sin ningun tipo de problema lo deploye en (Infinity Free) Asi que estoy seguro de que si desean verlo deployado podran hacerlo, tambien esta dado de alta mi codigo en GitHub ",
-    image: "/crud-php.png",
-    link: "http://crudphpbyjoseluisarteaga.infinityfreeapp.com/",
-    git: "https://github.com/JoseLuisDeveloperTJ/crudfullstack/"
-  },
-  {
-    id: "19",
-    title: "Tostadas Sabrocitas - WP",
-    subtitle: "html5, css3, wordpress, elementor",
-    description: "Este proyecto fue desarrollado con HTML, CSS, WordPress, Elementor en este caso no solo fue el desarrollo del sitio web si no que actualmente estoy trabajando de forma freelance una estrategia SEO con mi cliente desde SEO Local, SEO on page, y SEO off page para incrementar el numero de visitantes en su sitio mes a mes, tambien se pretende trabajar sus redes sociales con SMO apartir del dia 2 de abril 2024 ",
-    image: "/tostadas.png",
-    link: "https://tostadassabrocitas.com/",
-    git: "#"
-  },
-  
-  
+
 ];
 
 // testimonio de mis estudios
 
 export const testimonials = [
-  {
-    quote:
-      "Aunque mi Licenciatura en Ingeniería en Sistemas Computacionales quedó trunca después de un semestre, eso no me ha detenido en mi pasión por la programación. He continuado mi formación a través de cursos en línea y tutoriales en YouTube. Me apasiona la programación y estoy decidido a seguir aprendiendo y creciendo en este campo. A pesar de los obstáculos, mi determinación sigue intacta y estoy emocionado por lo que el futuro me depara en el mundo de la tecnología.",
-    image: "./uveg_logo.jpg",
-    name: "Lic. en Ingenieria en sistemas (trunca)",
-    company: "UVEG Universidad",
-    link2: "#"
+
+        {
+   
+    image: "./6sigma.png",
+    name: "Six Sigma Yellow Belt",
+    company: "6sigmastudy",
+    link2:
+      "https://drive.google.com/file/d/1dHTGjGK3ug0nETx0KjwXK9AK6XOaeHIZ/view",
   },
-  {
-    quote:
-      "He completado con éxito el Master en CSS, especializado en Responsive Design, SASS, Flexbox, Grid y Bootstrap. Mi dominio completo de estos temas me permite crear sitios web altamente funcionales y visualmente atractivos. Me siento seguro en mi capacidad para implementar diseños adaptables y estructuras de página eficientes. Estoy comprometido en mantenerme actualizado en las mejores prácticas de CSS y en seguir explorando nuevas técnicas para mejorar aún más mis habilidades.",
-    image: "./Udemy-logo.png",
-    name: "Master en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap",
-    company: "Plataforma de cursos online Udemy",
-    link2:"https://www.udemy.com/certificate/UC-74e0e457-46ca-4bd9-8569-681c3ce8fe2c/"
+      {
+   
+    image: "./cssc.png",
+    name: "Lean Six Sigma White Belt Certification",
+    company: "The Council for Six Sigma Certification (CSSC)",
+    link2:
+      "https://drive.google.com/file/d/1IXTdpHEwazhJsvZ557oKa5hfOAG6QF19/view",
+  },
+    {
+   
+    image: "./udemy-2.png",
+    name: "Microsoft Excel: From Beginner to Advanced",
+    company: "Udemy",
+    link2:
+      "https://cert.efset.org/X4v8u9",
   },
 
   {
-    quote:
-      "Terminé el curso de Programador en JavaScript y estoy emocionado con lo que he aprendido. Ahora tengo conocimientos intermedios en el lenguaje y puedo crear interacciones básicas en sitios web. Me siento confiado en mi capacidad para resolver problemas y seguir aprendiendo en esta área. ¡El mundo del JavaScript me tiene entusiasmado!",
-    image: "./edutin_logo.jpg",
-    name: "Programador JavaScript",
-    company: "Plataform de cursos Edutin",
-    link2: "https://app.edutin.com/verify/6948111",
+   
+    image: "./ef-set.png",
+    name: "EF SET English Certificate 50/100 (B1 Intermediate)",
+    company: "EF SET",
+    link2:
+      "https://cert.efset.org/X4v8u9",
   },
 
   {
-    quote:
-      "Tras completar el bootcamp de Kodigo Academy como desarrollador web front-end, estoy encantado con el progreso que he logrado. Mis conocimientos en JavaScript se han fortalecido significativamente, y ahora me siento cómodo con conceptos avanzados. Además, he adquirido habilidades sólidas en React, lo que me permite crear aplicaciones web interactivas. Estoy emocionado por lo que depara el futuro en mi carrera como programador y estoy comprometido en seguir aprendiendo y creciendo.",
+   
+    image: "./certiprof.png",
+    name: "Scrum Foundation",
+    company: "CertiProf",
+    link2: "https://drive.google.com/file/d/1JgShZ0h5NtPm_4Z96NYaGh0u0uf9i_m4/view",
+  },
+
+  {
+
     image: "./kodigo-logo.jpg",
-    name: "Web developer Front-end ",
-    company: "Academia Kodigo",
-    link2: "https://drive.google.com/file/d/1K1bI9eWzp2h2XXI2tYOIo2TIdAc1Uy9u/view",
+    name: "Web developer (HTML, CSS, JavaScript, ReactJS) ",
+    company: "Academy Kodigo",
+    link2:
+      "https://drive.google.com/file/d/1K1bI9eWzp2h2XXI2tYOIo2TIdAc1Uy9u/view",
   },
-  
+    {
+
+    image: "./uveg_logo.jpg",
+    name: "Lic. en Ingenieria en sistemas (2023-Current[online])",
+    company: "UVEG Universidad",
+    link2: "#",
+  },
 ];
 
 export const skills = [
-  "JavaScript & TypeScript",
+  "Excel",
   "React JS",
-  "HTML5,  CSS3, SASS",
-  "Angular, Material UI",
-  "BOOTSTRAP & Tailwind",
-  "FIGMA",
+  "Power BI",
   "MySQL",
+  "Python",
+  "Google Analytics",
+  "Data Cleaning (Power Query)",
   "Git & GitHub",
 ];
