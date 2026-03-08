@@ -176,7 +176,7 @@ export const testimonials = [
     {
    
     image: "./udemy-2.png",
-    name: "Microsoft Excel: From Beginner to Advanced",
+    name: "Microsoft Excel: From Beginner to Advanced(PowerPivots, Dashboards, Data cleaning, functions)",
     company: "Udemy",
     link2:
       "https://cert.efset.org/X4v8u9",
