@@ -8,6 +8,8 @@ const technologyIcons = {
   python: "/icons/python.png",
   snowflake: "/icons/snowflake.png",
   n8n: "/icons/n8n.png",
+  dbt: "/icons/dbt.png",
+  airflow: "/icons/airflow.png",
 };
 
 const TechnologyIcon = ({ technologies }) => {

@@ -45,14 +45,14 @@ export default function Navbar() {
         </nav>
 
         <a
-          href="./SP_CV_Jose_Arteaga_BI_Analayst.pdf" download
+          href="./Analytics_engineer_JoseLuisArteagaCV.pdf" download
           className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 transition-all duration-500 ${
             scrolled 
               ? "bg-fuchsia-600 text-white hover:bg-gray-900" 
               : "bg-gray-700 text-gray-300 hover:bg-gray-600"
           }`}
         >
-          ¡Descarga mi CV
+          ¡Donwload CV!
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
       </div>

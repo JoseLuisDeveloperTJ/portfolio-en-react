@@ -39,7 +39,7 @@ const ProjectDetailsPage = () => {
   // Aquí, puedes buscar los detalles del proyecto según el projectId y mostrarlos.
   return (
     <>
-      <div className="container mx-auto p-2">
+      <div className="container mx-auto p-2 mb-10">
         <div className="w-full md:w-3/4 lg:w-1/2 xl:w-1/3 mx-auto p-4">
           <img
             src={project.image}
@@ -90,13 +90,13 @@ const ProjectDetailsPage = () => {
           <div className="space-x-2">
 
           <button className="netlify" onClick={() => openInNewTab(project.link)}>
-            <FontAwesomeIcon icon={faUpload} /> Ver proyecto
+            <FontAwesomeIcon icon={faUpload} /> View project
           </button>
 
 
             <Link>
             <button className="github" onClick={() => openInNewTab(project.git)}>
-              <FontAwesomeIcon icon={faGit} /> Ver en GitHub
+              <FontAwesomeIcon icon={faGit} /> View GITHUB
             </button>
             </Link>
 
