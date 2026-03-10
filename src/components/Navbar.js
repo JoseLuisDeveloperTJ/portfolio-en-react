@@ -39,9 +39,9 @@ export default function Navbar() {
         <nav className={`md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l flex flex-wrap items-center text-base justify-center transition-colors duration-500 ${
           scrolled ? "text-gray-800 border-gray-300" : "text-gray-400 border-gray-700"
         }`}>
-          <a href="#projects" className="mr-5 hover:text-fuchsia-600">Trabajos anteriores</a>
-          <a href="#skills" className="mr-5 hover:text-fuchsia-600">Habilidades</a>
-          <a href="#formation" className="mr-5 hover:text-fuchsia-600">Formación</a>
+          <a href="#projects" className="mr-5 hover:text-fuchsia-600">Projects</a>
+          <a href="#skills" className="mr-5 hover:text-fuchsia-600">Skills</a>
+          <a href="#formation" className="mr-5 hover:text-fuchsia-600">Education</a>
         </nav>
 
         <a

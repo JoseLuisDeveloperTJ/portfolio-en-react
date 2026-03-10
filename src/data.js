@@ -2,6 +2,72 @@ export const projects = [
     {
     id: "1",
     title:
+      "Nexus Fintech Pipeline | Real-Time Transaction ETL | AWS · Airflow · Snowflake · Dbt · Python · Power BI",
+    subtitle: "aws, n8n, python, snowflake, mysql, powerbi",
+    description: `“Apex Outdoors” (fictional case), managing daily sales across multiple regions.
+
+Their reality: a team of four Data Entry specialists spending hours exporting, consolidating, and manually formatting Excel files from their online store just to produce a single sales report.
+
+The result? Over $3,200 USD per month in operational costs, frequent human errors, and a 24-hour delay in business decision-making.
+
+The Mission
+
+Design and implement a fully automated, scalable, and cost-efficient data pipeline to eliminate manual reporting and provide near real-time business insights.
+
+The Solution: Apex Sales Pipeline
+
+I designed an event-driven data architecture that transformed a $3,200/month manual workflow into an automated cloud pipeline costing under $300/month.
+
+1. Data Ingestion (Python)
+
+A Python script simulates a real-time e-commerce API, continuously generating structured JSON data (orders, customers, timestamps).
+Technologies: Python (json, datetime, random).
+
+2. Workflow Orchestration (n8n)
+
+n8n acts as the central orchestrator using scheduled triggers to execute the pipeline, validate data creation, and manage the data flow.
+Technology: n8n.
+
+3. Staging & Storage (AWS S3)
+
+Raw JSON files are uploaded to an Amazon S3 bucket, creating a durable landing zone for raw data ingestion.
+Technology: AWS S3.
+
+4. Data Warehouse (Snowflake)
+
+The pipeline loads data from S3 into Snowflake using COPY INTO, where SQL views parse JSON data, join geographic metadata (Lat/Lon), and structure it for analytics.
+Technology: Snowflake.
+
+5. Data Visualization (Power BI)
+
+Power BI connects directly to the curated Snowflake views to deliver interactive dashboards including sales overview, heat maps, product insights, and system monitoring.
+Technology: Power BI.
+
+Business Impact
+
+• 90% cost reduction ($3,200 → ~$300/month)
+• Real-time decision making by eliminating 24-hour reporting delays
+• Improved data accuracy by removing manual processing errors`,
+
+    image: "/gif_nexus.gif",
+    gallery: [
+      "/projects-images/apex_ecom/dashboard_1.png",
+      "/projects-images/apex_ecom/product_2.png",
+      "/projects-images/apex_ecom/map_3.png",
+      "/projects-images/apex_ecom/settings_4.png",
+      "/projects-images/apex_ecom/snowflake_5.png",
+      "/projects-images/apex_ecom/aws_6.png",
+      "/projects-images/apex_ecom/n8n_6.png",
+      "/projects-images/apex_ecom/editor_7.png",
+      "/projects-images/apex_ecom/pyton_8.png",
+      "/projects-images/apex_ecom/gitbash_9.png",
+      "/projects-images/apex_ecom/workflow_9.png",
+        ],
+    link: "",
+  },
+      {
+    id: "1",
+    title:
       "E-commerce Sales Optimization Dashboard | Snowflake Cloud (AWS) + Python + n8n Orchestration + Power BI Insights",
     subtitle: "aws, n8n, python, snowflake, mysql, powerbi",
     description: `“Apex Outdoors” (fictional case), managing daily sales across multiple regions.
@@ -65,6 +131,8 @@ Business Impact
         ],
     link: "",
   },
+
+  
   {
     id: "2",
     title:
