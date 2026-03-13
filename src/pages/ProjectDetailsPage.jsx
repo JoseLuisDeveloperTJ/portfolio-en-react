@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react"; // 1. Importa useEffect
 import { Link, useParams } from "react-router-dom";
 import { projects } from "../data";
 import TechnologyIcon from "../TechnologyIcon";
@@ -23,6 +23,10 @@ const N8nLogo = ({ className }) => (
 const ProjectDetailsPage = () => {
   const { projectId } = useParams();
 
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [projectId]); 
+
   const project = projects.find((p) => p.id === projectId);
 
   if (!project) {
@@ -40,13 +44,29 @@ const ProjectDetailsPage = () => {
   return (
     <>
       <div className="container mx-auto p-2 mb-10">
-        <div className="w-full md:w-3/4 lg:w-1/2 xl:w-1/3 mx-auto p-4">
+        <div className="w-full md:w-3/4 lg:w-[80%] xl:w-[60%] mx-auto p-4">
+      {project.video ? (
+        <iframe
+          src={project.video.replace("watch?v=", "embed/")}
+          title={project.title}
+          className="w-full aspect-video rounded-lg shadow-lg"
+          style={{ 
+      width: "100%", 
+      height: "450px", // Altura ideal para desktop
+      maxHeight: "60vh", // Evita que en pantallas pequeñas sea demasiado alto
+      border: "none" 
+    }}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+        ) : (
           <img
             src={project.image}
             alt={project.title}
             style={{ width: "100%", height: "100%" }}
             className="w-full h-auto"
           />
+        )}  
 
           <h1
             style={{
@@ -90,15 +110,11 @@ const ProjectDetailsPage = () => {
           <div className="space-x-2">
 
           <button className="netlify" onClick={() => openInNewTab(project.link)}>
-            <FontAwesomeIcon icon={faUpload} /> View project
+            <FontAwesomeIcon icon={faUpload} /> View GitHub
           </button>
 
 
-            <Link>
-            <button className="github" onClick={() => openInNewTab(project.git)}>
-              <FontAwesomeIcon icon={faGit} /> View GITHUB
-            </button>
-            </Link>
+
 
           </div>
           

@@ -1,6 +1,6 @@
 import React from "react";
 
-const technologyIcons = {
+  export const technologyIcons = {
   mysql: "/icons/mysql.png",
   excel: "/icons/excel.png",
   powerbi: "/icons/powerbi.png",
@@ -10,6 +10,8 @@ const technologyIcons = {
   n8n: "/icons/n8n.png",
   dbt: "/icons/dbt.png",
   airflow: "/icons/airflow.png",
+  powerautomate: "/icons/power-automate.png",
+  git: "/icons/git.png",
 };
 
 const TechnologyIcon = ({ technologies }) => {

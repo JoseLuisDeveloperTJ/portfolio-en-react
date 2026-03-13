@@ -10,7 +10,7 @@ import {
 const ExperienceTimeline = () => {
   const experiences = [
     {
-      title: "Customer Operations Analyst (E-commerce Support)",
+      title: "Operational Data & Automation Analyst",
       company: "XB Fulfillment",
       date: "may. 2025 - feb. 2026",
       location: "Murua Oriente, 22465 Tijuana, B.C. · Remote",

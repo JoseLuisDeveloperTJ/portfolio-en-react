@@ -50,8 +50,51 @@ Visualization: Power BI – Delivering executive-level insights via real-time da
         ],
     link: "",
   },
+  {
+    id: "2",
+    title:
+      "AI-Augmented BI Monitoring System | Python • n8n • Power BI • DAX • Gemini • Slack",
+    subtitle: "python, n8n, powerbi, git",
+    description: `
+💼 Business Context
+Customer support teams often struggle to monitor performance in real-time. 📉 Supervisors typically rely on delayed reports, making it difficult to react quickly when service levels drop. ⏳
+
+The Vortex Project simulates a production environment and demonstrates how a modern data workflow can automate operational monitoring. 🤖 The system ingests live ticket data, calculates performance metrics, and automatically notifies the team when service levels require attention. 🚨
+
+🌟 Impact
+Real-Time Data Pipeline: Built an end-to-end automated analytics workflow that processes operational data in near real-time. ⚡
+
+Dynamic SLA Monitoring: Implemented compliance metrics that automatically adjust based on the specific hour of the shift. 🕒
+
+AI-Augmented Supervision: Enabled an AI agent to analyze team performance and send contextual alerts or motivational feedback. 🤖💬
+
+Executive Dashboards: Delivered high-level Power BI visualizations to provide supervisors with instant visibility. 📊
+
+Governance & Observability: Captured AI reasoning and metadata to ensure reliability and prevent hallucinations. 🛡️
+
+🛠️ Data Stack
+Data Simulation: Python (Ticket simulation and API consumption). 🐍
+
+Workflow Automation: n8n & JavaScript (Data transformation and orchestration). ⚙️
+
+Business Intelligence: Microsoft Power BI & DAX (Dynamic KPI modeling). 📈
+
+AI Integration: Google Gemini (Metric analysis and alert generation). ✨
+
+Collaboration & Ops: Slack (Team alerts) & GitHub (Version control). 💬`,
+
+    image: "/projects-images/vortex-project/1dashboard.png",
+    video: "https://www.youtube.com/watch?v=Eg82X3LE3ZM",
+    gallery: [
+      "/projects-images/vortex-project/1dashboard.png",
+      "/projects-images/vortex-project/2python.png",
+      "/projects-images/vortex-project/3n8n.png",  
+
+        ],
+    link: "https://github.com/JoseLuisDeveloperTJ/vortex-ai-pipeline/tree/main",
+  },
       {
-    id: "1",
+    id: "3",
     title:
       "E-commerce Sales Optimization Dashboard | Snowflake Cloud (AWS) + Python + n8n Orchestration + Power BI Insights",
     subtitle: "aws, n8n, python, snowflake, mysql, powerbi",
@@ -119,7 +162,7 @@ Business Impact
 
   
   {
-    id: "2",
+    id: "4",
     title:
       "WFM Call center Intelligent Dashboard | Snowflake Cloud AWS + Power BI + Machine Learning Forecasting",
     subtitle: "aws, snowflake, mysql, powerbi",
@@ -158,7 +201,7 @@ Business Impact
     link: "",
   },
   {
-    id: "3",
+    id: "5",
     title: "Operational Productivity & Overtime Impact Analysis Manufacturing Company | Power BI",
     subtitle: "powerbi",
     description: `Power BI Project | Operational Productivity & Overtime Impact Analysis

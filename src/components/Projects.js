@@ -1,6 +1,8 @@
 import React from "react";
 import { projects } from "../data";
 import { Link, useNavigate } from "react-router-dom";
+import SkillCarousel from "./SkillCarousel";
+
 
 function Projects() {
   const navigate = useNavigate();
@@ -20,6 +22,8 @@ function Projects() {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             These are some of the applications I've built using different technologies.
           </p>
+
+          <SkillCarousel />
         </div>
         <div className=" flex flex-wrap -m-4">
           {projects.map((project, index) => (
