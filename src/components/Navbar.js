@@ -45,7 +45,7 @@ export default function Navbar() {
         </nav>
 
         <a
-          href="./Analytics_engineer_JoseLuisArteagaCV.pdf" download
+          href="./BI Developer modern stack - JoseLuisArteaga.pdf" download
           className={`inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 transition-all duration-500 ${
             scrolled 
               ? "bg-fuchsia-600 text-white hover:bg-gray-900" 
