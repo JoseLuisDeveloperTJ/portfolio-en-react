@@ -51,7 +51,7 @@ export default function Formation() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-2 bg-transparent border border-gray-700 text-gray-300 rounded-lg text-sm font-medium hover:bg-fuchsia-500 hover:text-white hover:border-fuchsia-500 transition-all duration-300"
                 >
-                  Ver credencial
+                  View Certificate
                 </a>
               </div>
             </div>

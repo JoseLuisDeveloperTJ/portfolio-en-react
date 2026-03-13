@@ -15,17 +15,15 @@ const ExperienceTimeline = () => {
       date: "may. 2025 - feb. 2026",
       location: "Murua Oriente, 22465 Tijuana, B.C. · Remote",
       description: `
-      - KPI & Scorecard Management: Responsible for tracking and reporting daily critical performance metrics (SLAs) to determine productivity and quality bonuses.
-     
-    - Productivity & QA Analysis: Monitored compliance with operational goals, including a 45-ticket daily standard and a minimum 88% Quality Assurance (QA) threshold.
+Legacy Reporting Migration: Led the transition from manual Excel reporting to automated Power BI dashboards, designing centralized data models for real-time monitoring of management SLAs and operational KPIs.
 
-    - Incentive Calculation: Executed the calculation model for performance bonuses (approx. $1,750 MXN), applying deductions based on quality and productivity metric variances.
+Ingestion Automation (Gladly & Shopify): Implemented automation workflows for periodic metric extraction from Gladly (Customer Service Platform) and Shopify Plus, eliminating manual data entry and ensuring hourly data availability.
 
-    - Customer Satisfaction Reporting: Analyzed end-user ratings and CSAT (Customer Satisfaction Score) metrics to identify service improvement areas.
+Operational Health Monitoring (Alerting): Configured automated alerting flows via n8n to monitor service thresholds; upon detecting drops in response levels, the system triggered instant notifications to the Slack channel (XCHT_TEAM), significantly reducing supervisor reaction time.
 
-    - Hybrid Operational Support: Performed high-level customer support tasks (tickets/emails) during peak periods, ensuring consistent alignment with Service Level Agreements (SLAs).
+Incentive & QA Modeling: Developed the logic and automated templates for productivity bonus calculations and Quality Assurance metrics, ensuring transparency in incentive distribution based on a minimum 88% QA standard.
 
-    - Shopify Administration: Managed databases for refund and return processing, ensuring the integrity of financial and inventory data.
+Customer Experience Analytics (CSAT): Structured Customer Satisfaction Score (CSAT) reports by integrating multi-channel interaction data, identifying operational bottlenecks, and proposing data-driven service improvements.
       `,
       icon: <BriefcaseIcon className="w-5 h-5" />,
     },
@@ -50,12 +48,20 @@ const ExperienceTimeline = () => {
       icon: <BriefcaseIcon className="w-5 h-5" />,
     },
         {
-      title: "Junior Technical Support (Web Foundations)",
+      title: "Web developer | ReactJS & JavaScript | AWS | APIs",
       company: "Inmersys",
       date: "may. 2025 - feb. 2026",
       location: "Narvarte Poniente, Benito Juárez, 03020 Ciudad de México, CDMX · En remoto",
       description: `
-      System Performance: Developed ReactJS and JavaScript components to enhance the efficiency of internal digital tools.
+      Data-Driven Dashboard Architecture (ClickUp API & MongoDB): Contributed to the technical development of a real-time productivity dashboard. Managed the end-to-end data lifecycle: extracting complex JSON objects via ClickUp REST API, persisting semi-structured data in MongoDB (NoSQL), and transforming raw datasets into interactive KPIs.
+
+API Ingestion & JSON Parsing: Engineered server-side logic in Node.js to parse, clean, and map multi-level nested JSON arrays from external providers, ensuring 100% data consistency before client-side consumption.
+
+Relational Database Management: Optimized MySQL database schemas for high-traffic web applications, focusing on query performance tuning, data integrity, and automated operational reporting.
+
+Cloud Infrastructure (AWS S3): Implemented storage solutions using AWS S3 for application logs and static assets, managing secure access through IAM policies—foundational skills now applied to modern Cloud Data Lake architectures.
+
+Front-end Analytics Delivery: Developed interactive data visualization interfaces using React and JavaScript (Recharts/Chart.js), bridging the gap between back-end data processing and executive decision-making through intuitive charts and real-time metrics..
       `,
       icon: <BriefcaseIcon className="w-5 h-5" />,
     },

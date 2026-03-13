@@ -255,7 +255,7 @@ export const testimonials = [
   {
 
     image: "./kodigo-logo.jpg",
-    name: "Web developer (HTML, CSS, JavaScript, ReactJS) ",
+    name: "Web developer (HTML, CSS, JavaScript, ReactJS, MySQL, APIs) ",
     company: "Academy Kodigo",
     link2:
       "https://drive.google.com/file/d/1K1bI9eWzp2h2XXI2tYOIo2TIdAc1Uy9u/view",
@@ -271,11 +271,11 @@ export const testimonials = [
 
 export const skills = [
   "Excel",
-  "React JS",
+  "Airflow",
   "Power BI",
   "MySQL",
   "Python",
-  "Google Analytics",
-  "Data Cleaning (Power Query)",
+  "Dbt",
+  "Snowflake",
   "Git & GitHub",
 ];
