@@ -3,7 +3,7 @@ export const projects = [
     id: "1",
     title:
       "Nexus Fintech Pipeline | Real-Time Transaction ETL | AWS · Airflow · Snowflake · Dbt · Python · Power BI",
-    subtitle: "aws, dbt, airflow, python, snowflake, mysql, powerbi",
+    subtitle: "aws, dbt, airflow, python, snowflake, mysql, powerbi, git",
     description: `🏛️ Business Context
 Nexus Fintech is a digital banking platform (fictional case study) that processes thousands of daily transactions across various payment methods. The project focuses on building a robust, automated infrastructure to move raw transaction data from an API simulation to a live executive dashboard.
 
@@ -48,7 +48,7 @@ Visualization: Power BI – Delivering executive-level insights via real-time da
       "/projects-images/nexus-project/dbt.png",
 
         ],
-    link: "",
+    link: "https://github.com/JoseLuisDeveloperTJ/nexus-fintech-pipeline./blob/main/data_generator.py",
   },
   {
     id: "2",
@@ -86,9 +86,10 @@ Collaboration & Ops: Slack (Team alerts) & GitHub (Version control). 💬`,
     image: "/projects-images/vortex-project/1dashboard.png",
     video: "https://www.youtube.com/watch?v=Eg82X3LE3ZM",
     gallery: [
+      "/projects-images/vortex-project/workflow-image.png", 
       "/projects-images/vortex-project/1dashboard.png",
       "/projects-images/vortex-project/2python.png",
-      "/projects-images/vortex-project/3n8n.png",  
+      "/projects-images/vortex-project/3n8n.png",      
 
         ],
     link: "https://github.com/JoseLuisDeveloperTJ/vortex-ai-pipeline/tree/main",
@@ -97,7 +98,7 @@ Collaboration & Ops: Slack (Team alerts) & GitHub (Version control). 💬`,
     id: "3",
     title:
       "E-commerce Sales Optimization Dashboard | Snowflake Cloud (AWS) + Python + n8n Orchestration + Power BI Insights",
-    subtitle: "aws, n8n, python, snowflake, mysql, powerbi",
+    subtitle: "aws, n8n, python, snowflake, mysql, powerbi, git",
     description: `“Apex Outdoors” (fictional case), managing daily sales across multiple regions.
 
 Their reality: a team of four Data Entry specialists spending hours exporting, consolidating, and manually formatting Excel files from their online store just to produce a single sales report.
@@ -157,7 +158,7 @@ Business Impact
       "/projects-images/apex_ecom/gitbash_9.png",
       "/projects-images/apex_ecom/workflow_9.png",
         ],
-    link: "",
+    link: "https://github.com/JoseLuisDeveloperTJ/apex-ecom-pipeline",
   },
 
   
